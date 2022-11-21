@@ -1,0 +1,132 @@
+body {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.ticket-box {
+    width: 40%;
+    height: 800px;
+    background-color: #0f0f0f;
+    display: flex;
+    margin: 100px auto;
+}
+
+.ticket-box-form {
+    width: 50%;
+    height: 200px;
+}
+
+.ticket-box-title {
+    text-align: center;
+    font-size: 40px;
+    
+}
+
+.ticket-box-form-text {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+
+.name::placeholder, .surname::placeholder, .email::placeholder{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 14px;
+}
+
+.name, .surname, .email {
+    display: block;
+    width: 200px;
+    height: 40px;
+    background-color: goldenrod;
+    color: black;
+    letter-spacing: 2.5px;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    outline: none;
+    border: none;
+    transition: 0.5s;
+    margin: 5px auto;
+}
+
+.name:active, .surname:active, .email:active {
+    background-color: black;
+}
+
+.name:focus, .surname:focus, .email:focus{
+    background-color: rgb(192, 144, 24);
+}
+
+
+#row-picker, #seat-picker {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background-color: goldenrod;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    display: block;
+    position: relative;
+    float: left;
+    margin-top: 20px;
+    left: calc(50% - 50px);
+}
+
+option {
+    font-size: 15px;
+}
+
+.ticket-box-form-total-price {
+    width: 100px;
+    margin: auto;
+    height: 100px;
+    background-color: goldenrod;
+    text-align: center; 
+    margin-top: 100px;
+}
+
+.ticket-box-form-total-price-text {
+    transform: translateY(-30px);
+    color: goldenrod;
+    font-size: 30px;
+}
+
+#total-price {
+    line-height: 0px;
+    color: black;
+    text-align: center;
+    font-size: 40px;
+}
+
+.ticket-box-title {
+    color: goldenrod;
+    padding-top: 20px;
+}
+
+.add-btn, .buy-btn {
+    transition: 0.5s;
+    width: 100px;
+    height: 50px;
+    background-color: goldenrod;
+    display: block;
+    float: left;
+    position: relative;
+    left: calc(50% - 125px);   
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 20px;
+    letter-spacing: 2.5px; 
+}
+
+.buy-btn {
+    margin-right: 50px;
+}
+
+.add-btn:hover, .buy-btn:hover {
+    cursor: pointer;
+    background-color: black;
+    border: solid 1px goldenrod;
+    color: goldenrod;
+    letter-spacing: 1px;
+}

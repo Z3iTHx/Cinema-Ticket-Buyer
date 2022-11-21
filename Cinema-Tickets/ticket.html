@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!--META TAGS-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to YOUR CINEMA! Place where You can watch everything!">
+    <meta name="keywords" content="cinema, your cinema, film, movie, watch, seats, ticket, buy, screen">
+
+    <!--GENERAL TAGS-->
+    <title>Cinema</title> 
+    <link rel="icon" href="#">
+
+    <!--CSS LINKS-->
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/film.css">
+    <link rel="stylesheet" href="CSS/form.css">
+
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+    <nav class="menu">
+        YOUR CINEMA
+    </nav>
+
+    <section class="return-box">
+        <a href="index.html" class="return-box-button">GO BACK TO MAIN PAGE</a>
+    </section>
+
+    <section class="ticket-box">
+        <section class="ticket-box-form">
+
+            <h1 class="ticket-box-title">
+                TICKET 1
+            </h1>
+
+            <input type="text" placeholder="NAME" class="name"> <br>
+            <input type="text" placeholder="SURNAME" class="surname"> <br>
+            <input type="email" placeholder="E-MAIL" class="email"> 
+
+            <p class="ticket-box-form-text">
+                ROW & SEAT
+            </p>
+
+            <select name="row" id="row-picker">
+                <option>A</option>
+                <option>B</option>
+                <option>C</option>
+                <option>D</option>
+                <option>E</option>
+                <option>F</option>
+                <option>G</option>
+                <option>H</option>
+            </select>
+
+            <select name="seat" id="seat-picker">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+                <option>13</option>
+                <option>14</option>
+                <option>15</option>
+                <option>16</option>
+            </select>
+        </section>
+
+        <section class="ticket-box-form-total-price">
+            <p class="ticket-box-form-total-price-text">
+                TOTAL PRICE
+            </p>
+            <p id="total-price">0$</p>
+        </section>
+    </section>
+    
+    <button class="buy-btn">BUY</button>
+    <button class="add-btn">ADD TICKET</button>
+
+    <script src="JS/ticket.js"></script>
+
+    <footer class="footer">
+        <p class="footer-text">
+            YOUR CINEMA
+        </p>
+    </footer>
+
+</body>
+</html>

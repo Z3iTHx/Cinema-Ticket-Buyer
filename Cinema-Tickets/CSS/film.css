@@ -1,0 +1,126 @@
+/*-----FILMS-----*/
+.film-box {
+    width: 60%;
+    height: 300px;
+    margin: auto;
+    background-color: #0f0f0f;
+    display: flex;
+}
+
+.film-box-movie {
+    width: 200px;
+    height: 90%;
+    background-color: black;
+    margin: 0px auto;
+    transition: 0.5s;
+}
+
+.film-box-movie-title {
+    transition: 0.4s;
+    position: relative;
+    top: 88%;
+    text-align: center;
+    color: goldenrod;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    letter-spacing: 2px;
+    font-size: 20px;
+
+}
+
+.film-box-movie-btn {
+    transition: 0.3s ease-in-out;
+    display: block;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 85%;
+    text-align: center;
+    background-color: rgba(19, 19, 19, 0.8);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+#underline-effect {
+    transition: 0.5s;
+    display: block;
+    width: 0%;
+    height: 1px;
+    background-color: black;
+    margin: auto;
+    transform: translateY(-10px);
+}
+
+#cieszkow {
+    transition: 0.5s;
+    background-position: center;
+    background-size: 100%;
+    background-image: url(/GALLERY/cp-bg.png);
+}
+
+#cieszkow:hover {
+    background-size: 110%;
+}
+
+#cieszkow:hover .film-box-movie-title {
+    letter-spacing: 5px;
+}
+
+#cieszkow:hover #underline-effect {
+    width: 50%;
+}
+
+#cieszkow:hover .film-box-movie-btn {
+    background-color: rgba(199, 169, 1, 0.8);
+    color: black
+}
+
+#cieszkowscypogrmocy {
+    transition: 0.5s;
+    background-image: url(/GALLERY/cp-bg2.png);
+    background-size: 100%;
+    background-position: center;
+}
+
+#cieszkowscypogrmocy:hover {
+    background-size: 110%;
+}
+
+#cieszkowscypogrmocy:hover .film-box-movie-title {
+    letter-spacing: 3px;
+}
+
+#cieszkowscypogrmocy:hover #underline-effect {
+    width: 50%;
+}
+
+#cieszkowscypogrmocy:hover .film-box-movie-btn {
+    background-color: rgba(199, 169, 1, 0.8);
+    color: black;
+}
+
+#krycha {
+    transition: 0.5s;
+    background-image: url(/GALLERY/krycha-bg.png);
+    background-size: 100%;
+    background-position: center;
+}
+
+#krycha:hover {
+    background-size: 110%;
+}
+
+#krycha:hover .film-box-movie-title {
+    letter-spacing: 5px;
+}
+
+#krycha:hover #underline-effect{
+    width: 50%;
+}
+
+#krycha:hover .film-box-movie-btn {
+    background-color: rgba(199, 169, 1, 0.8);
+    color: black;
+}

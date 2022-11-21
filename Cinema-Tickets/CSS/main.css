@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #111;
+    color: white;
+}
+
+/*-----NAV-----*/
+
+.menu {
+    width: 100%;
+    height: 50px;
+
+    color: goldenrod;
+    text-align: center;
+    letter-spacing: 10px;
+
+    border-bottom: solid 5px goldenrod;
+    background-color: #0f0f0f;
+    line-height: 50px;
+
+    font-family: 'Lobster', cursive;
+    font-size: 29px;
+    text-decoration:line-through red;
+
+}
+
+/*-----DESCRIPTIONS-----*/
+.description-first {
+    width: 60%;
+    height: 300px;
+    background-color: #0f0f0f;
+    margin: 150px auto;
+}
+
+#description-first-img {
+    width: 20%;
+    height: 100%;
+    border-right: goldenrod 10px solid;
+    float: left;
+}
+
+.description-first-text {
+    color: goldenrod;
+    font-size: 19px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+#highlight {
+    font-size: 40px;
+    display: block;
+    text-shadow: rgb(71, 61, 3) 0px 10px;
+    padding-bottom: 50px;
+    padding-top: 75px;
+}
+
+.movie-title {
+    color: goldenrod;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 5px;
+    padding-bottom: 20px;
+}
+
+
+
+/*-----FOOTER-----*/
+.footer {
+    margin-top: 200px;
+    width: 100%;
+    height: 150px;
+    background-color: black;
+}
+
+.footer-text {
+    font-size: 40px;
+    text-align: center;
+    line-height: 150px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    letter-spacing: 50px;
+    color: #222;
+}
+
